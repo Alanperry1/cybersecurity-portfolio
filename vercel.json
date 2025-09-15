@@ -1,6 +1,7 @@
 {
-  "buildCommand": "node build-static.js",
+  "buildCommand": "npx vite build",
   "outputDirectory": "dist/public",
+  "installCommand": "npm install",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
